@@ -1,0 +1,162 @@
+{
+    "TxCard": {
+        "path": "/dev/spcm1",
+        "max_amplitude": [
+            200,
+            6000,
+            6000,
+            6000
+        ],
+        "filter_type": [
+            0,
+            2,
+            2,
+            2
+        ],
+        "sample_rate": 20,
+        "notify_rate": 16,
+        "name": "M2p.6546-x4",
+        "num_ch": 4,
+        "data_buffer_size": 24696061952,
+        "ring_buffer_size": 1073741824,
+        "card_type": 615750,
+        "notify_size": 67108864,
+        "has_IO_expansion": true
+    },
+    "RxCard": {
+        "path": "/dev/spcm0",
+        "sample_rate": 20,
+        "channel_enable": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "max_amplitude": [
+            200,
+            200,
+            200,
+            200,
+            200,
+            1000,
+            1000,
+            1000
+        ],
+        "impedance_50_ohms": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+        ],
+        "name": "M2p.5933-x4",
+        "num_channels": 1,
+        "card_type": 612659,
+        "pre_trigger": 8,
+        "post_trigger": 4096,
+        "rx_scaling": [
+            0.006103515625,
+            0.006103515625,
+            0.006103515625,
+            0.006103515625,
+            0.006103515625,
+            0.030517578125,
+            0.030517578125,
+            0.030517578125
+        ]
+    },
+    "SequenceProvider": {
+        "rf_to_mvolt": 0.005,
+        "spcm_freq": 20000000.0,
+        "spcm_dwell_time": 5e-08,
+        "gpa_gain": [
+            1.5,
+            1.5,
+            1.5
+        ],
+        "gradient_efficiency": [
+            0.00037,
+            0.000451,
+            0.0004
+        ],
+        "output_limits": [
+            200,
+            6000,
+            6000,
+            6000
+        ],
+        "larmor_freq": 2024202.0
+    },
+    "version": "0.0.1",
+    "date_time": "30/04/2025, 16:24:40",
+    "folder_name": "2025-04-30-162440-tse_3d",
+    "dimensions": [
+        [
+            1,
+            1,
+            4900,
+            70
+        ]
+    ],
+    "dwell_time": 5e-05,
+    "acquisition_parameter": {
+        "larmor_frequency": 2024202.0,
+        "b1_scaling": 1.35,
+        "gradient_offset": {
+            "x": -76.96357933250636,
+            "y": 11.407298153625623,
+            "z": -13.338088989257818
+        },
+        "fov_scaling": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+        },
+        "decimation": 1000,
+        "ddc_method": "finite-impulse-response-filter",
+        "num_averages": 1,
+        "averaging_delay": 0.0,
+        "state_filepath": "/home/guest/nexus-console/acquisition-parameter.state"
+    },
+    "sequence": {
+        "name": "tse_3d",
+        "duration": 151.79999999997744
+    },
+    "info": {
+        "note": "sphere phantom",
+        "sequence_parameter": {
+            "AdcRasterTime": 1e-06,
+            "BlockDurationRaster": 1e-06,
+            "FOV": [
+                0.14,
+                0.14,
+                0.14
+            ],
+            "GradientRasterTime": 1e-06,
+            "Name": "tse_3d",
+            "RadiofrequencyRasterTime": 1e-06,
+            "TE": 0.01,
+            "TR": 0.6,
+            "TotalDuration": 151.8,
+            "channel_order": "z y x",
+            "echo_train_length": 20.0,
+            "enc_type": "3D",
+            "encoding_dim": [
+                70.0,
+                70.0,
+                70.0
+            ],
+            "n_total_trains": 253.0,
+            "ro_bandwidth": 20000.0,
+            "ro_oversampling": 1.0,
+            "train_duration": 0.0
+        }
+    }
+}
