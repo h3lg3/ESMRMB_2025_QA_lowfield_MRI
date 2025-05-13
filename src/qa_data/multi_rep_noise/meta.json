@@ -92,11 +92,11 @@
             6000,
             6000
         ],
-        "larmor_freq": 2024202.0
+        "larmor_freq": 2022902.0
     },
     "version": "0.0.1",
-    "date_time": "30/04/2025, 16:54:05",
-    "folder_name": "2025-04-30-165405-tse_3d",
+    "date_time": "12/05/2025, 15:38:19",
+    "folder_name": "2025-05-12-153819-tse_3d",
     "dimensions": [
         [
             1,
@@ -107,12 +107,12 @@
     ],
     "dwell_time": 5e-05,
     "acquisition_parameter": {
-        "larmor_frequency": 2024202.0,
+        "larmor_frequency": 2022902.0,
         "b1_scaling": 1.35,
         "gradient_offset": {
-            "x": -76.96357933250636,
-            "y": 11.407298153625623,
-            "z": -13.338088989257818
+            "x": -77.0,
+            "y": 11.0,
+            "z": -13.0
         },
         "fov_scaling": {
             "x": 1.0,
